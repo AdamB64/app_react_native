@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "group-project",
-    "slug": "snack-3c060466-a816-4972-9a02-0cf5eee3127b",
+    "name": "myApp",
+    "slug": "myApp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
