@@ -96,6 +96,7 @@ function Bookingscreen({ navigation }) {
     console.log('Date:', date);
     console.log('Start Time:', startTime);
     console.log('End Time:', endTime);
+    console.log("username")
     // Perform additional logic if needed
   };
   return (
