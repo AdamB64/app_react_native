@@ -12,6 +12,7 @@ import {
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
+
 const supportedURL = 'https://www.aberdeenceramicsstudio.com/';
 
 const Stack = createNativeStackNavigator();

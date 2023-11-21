@@ -31,8 +31,14 @@ const RegistrationScreen = () => {
   const [password, setPassword] = useState('');
 
   const handleRegister = () => {
-    // Handle registration logic here
-    console.log('Register:', { username, email, password });
+    const registrationData = {
+      username: username,
+      email: email,
+      password: password,
+    };
+
+    console.log('Register:', registrationData);
+
     navigation.navigate('Main');
   };
 
@@ -65,8 +71,13 @@ const LoginScreen = () => {
   const [password, setPassword] = useState('');
 
   const handleLogin = () => {
-    // Handle login logic here
-    console.log('Login:', { usernameOrEmail, password });
+    const loginData = {
+      usernameOrEmail: usernameOrEmail,
+      password: password,
+    };
+
+    console.log('Login:', loginData);
+
     navigation.navigate('Main');
   };
 
